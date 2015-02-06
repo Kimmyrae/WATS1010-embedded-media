@@ -8,3 +8,23 @@
  html {
      color: green;
  }
+h1 {
+	font-family: Serif;
+	Font-style: normal;
+	}
+
+.subtitle {
+	font-style: inherit;
+}
+#social {
+	width: 250px;
+	float: right;
+	background-color: orange;
+	padding: 20px;
+	margin: 200px;
+	border-style: dotted;
+}
+
+ h2 {color: black
+	
+}
