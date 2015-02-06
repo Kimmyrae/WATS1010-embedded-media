@@ -6,8 +6,21 @@
  *****************************************************************************/
 
  html {
-     color: green;
+	 padding: 0;
+     color: black;
  }
+
+body{
+	margin: 0;
+}
+header {
+	min-height: 300px;
+	background-image: url('../img/official_header.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	}
+	
 h1 {
 	font-family: Serif;
 	Font-style: normal;
@@ -16,15 +29,31 @@ h1 {
 .subtitle {
 	font-style: inherit;
 }
-#social {
-	width: 250px;
-	float: right;
-	background-color: orange;
-	padding: 20px;
-	margin: 200px;
-	border-style: dotted;
-}
 
- h2 {color: black;
+#social hover {
+	width: 250px;
+	color: yellow;
 	
 }
+#social ul {
+	list-style-type: none;
+	padding: 0;
+}
+#social li{
+	margin: 0;
+	padding: 0;
+}
+#social {
+	background-color: lightblue;
+	border-style: dotted;
+	position:fixed;
+	top: 50px;
+	right: 0;
+	width: 250px;
+}
+
+ h2 {
+	 color: black;
+ }
+
+
