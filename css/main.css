@@ -9,8 +9,11 @@
 	 padding: 0;
      color: black;
  }
-
+ul{
+	list-style-type: none;
+}
 body{
+	background-color: lightblue;
 	margin: 0;
 }
 header {
@@ -44,8 +47,9 @@ h1 {
 	padding: 0;
 }
 #social {
-	background-color: lightblue;
-	border-style: dotted;
+	background-color: transparent;
+	border-top: 7px dotted black;
+	border-bottom: 7px dotted black;
 	position:fixed;
 	top: 50px;
 	right: 0;
@@ -56,4 +60,14 @@ h1 {
 	 color: black;
  }
 
-
+.lead {
+	font-family: georgia,serif;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	padding-bottom: 3px;		
+}
+#headshot li {
+	display: inline;
+}
