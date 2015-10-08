@@ -119,7 +119,9 @@ img.img-circle{
   margin-left:50px;
 
   }
-
+.nav navbar-nav {
+  display: inline;
+}
 .info{
   text-align: center;
 }
