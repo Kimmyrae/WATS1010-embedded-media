@@ -68,7 +68,7 @@ h1 {
 	text-transform: uppercase;
 	padding-bottom: 3px;
 }
-#headshot ul li {
+.headshot ul li {
 	display: inline;
 	padding:3px;
 /*	background-position: center 30px; */
