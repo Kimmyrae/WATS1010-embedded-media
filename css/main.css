@@ -86,7 +86,10 @@ hr {
 	width: 250px;
 }
 
-
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
 .lead {
 	font-family: georgia,serif;
 	font-size: 20px;
@@ -96,6 +99,6 @@ hr {
 	padding-bottom: 3px;
 }
 .img.img-circle{
-    width:200px; /* you can use % */
+    width:100px; /* you can use % */
     height: auto;
 }
