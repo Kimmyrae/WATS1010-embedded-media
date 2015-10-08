@@ -45,6 +45,9 @@ hr {
 .intro-text text-center {
   margin: auto;
 }
+.download-button{
+  margin: auto;
+}
 .subtitle {
 	font-style: inherit;
 }
