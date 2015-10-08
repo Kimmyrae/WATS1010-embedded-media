@@ -32,7 +32,12 @@ h1 {
 .subtitle {
 	font-style: inherit;
 }
-
+#watch{
+    margin: auto;
+    width: 60%;
+    border:3px solid #8AC007;
+    padding: 10px;
+}
 #social hover {
 	width: 250px;
 	color: yellow;
