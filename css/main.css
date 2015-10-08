@@ -18,14 +18,14 @@ body{
 	background-color: lightblue;
 	margin: 0;
 }
-header {
+/*header {
 	min-height: 700px;
 	background-image: url('../img/official_header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	}
-
+*/
 h1 {
 	font-family: Serif;
 	Font-style: normal;
