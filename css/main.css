@@ -19,3 +19,132 @@
  	 background-size: cover;
  	font-family: Rockwell;
   }
+  h1 {
+  	margin: 0;
+  	background-color: pink;
+  	width: 100%;
+  	line-height: 60px;
+  	letter-spacing: 15px;
+  	padding-left: 20px;
+  	font-family: Rockwell;
+  }
+  .subtitle {
+  	padding-left: 20px;
+  	letter-spacing: 10px;
+  }
+  header .main-nav li {
+  	font-family: "Rockwell Extra Bold";
+  	list-style-type: none;
+  	display: inline;
+  	letter-spacing: 10px;
+  	line-height: 40px;
+  }
+  header .main-nav {
+  	position: absolute;
+  	top: 380px;
+  	text-align: center;
+  	word-spacing: 200px;
+  	margin: 0;
+  	background-color: pink;
+  	width: 100%;
+  }
+
+  ul {
+    display: inline;
+  }
+  #social {
+  	background: #B0E0E6;
+  	position: fixed;
+  	top: 20px;
+  	right: 0;
+  	width: 40px;
+  	height: 200px;
+  	border-radius: 10px 0 0 10px;
+  	transition: 2s width;
+  	padding: 10px;
+  	box-shadow: 5px 5px 8px pink;
+  }
+  #social:hover {
+  	width: 120px;
+  }
+  #social ul {
+  	list-style-type: none;
+  	padding: 0;
+  }
+  #social li {
+  	margin: 0;
+  	padding: 0;
+  	font-family: Rockwell;
+  }
+  h2, h3{
+  	font-family: Rockwell;
+  }
+  .download-button {
+  	background: #B0E0E6;
+  	width: 100px;
+  	padding: 20px;
+  	border-radius: 10px;
+  	box-shadow: 5px 5px 8px pink;
+  	line-height: 80px;
+  }
+  .download-button:hover {
+  	background: #FFE0E0;
+  	box-shadow: 5px 5px 8px #B0E0E6;
+  }
+  #watch {
+  	float: left;
+  	margin-left: 150px;
+  	padding-right: 60px;
+  	margin-top: 50px;
+  	margin-bottom: 30px;
+  	border-right: 5px dotted pink;
+  }
+  video {
+  	max-width: 700px;
+  }
+  #listen {
+  	float: right;
+  	margin-right: 150px;
+  	margin-top: 50px;
+  }
+  section ul li {
+  	list-style-type: none;
+  }
+  section .weybec-people li {
+  	float: left;
+  	padding: 10px;
+  	font-family: Rockwell;
+  }
+  #about {
+  	clear: both;
+  	margin: 150px;
+  	border-top: 5px dotted pink;
+  	padding-top: 30px;
+  	line-height: 25px;
+  }
+  #about img {
+  	max-width: 320px;
+  	border: 5px solid pink;
+  }
+  .lead {
+  	font-weight: bold;
+  }
+  .about-monkaa {
+  	clear: both;
+  }
+  footer {
+  	clear: both;
+  	min-height: 200px;
+  	background-image: url('../img/monkaa_monkeyhang.jpg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding: 20px;
+  	text-align: right;
+  	border-top: 30px solid pink;
+  }
+  footer ul {
+  	list-style-type: none;
+  	line-height: 40px;
+  	letter-spacing: 10px;
+  	font-family: "Rockwell Extra Bold";
+  }
