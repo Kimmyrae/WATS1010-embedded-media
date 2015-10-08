@@ -18,14 +18,14 @@ body{
 	background-color: lightblue;
 	margin: 0;
 }
-/*header {
+{
 	min-height: 700px;
 	background-image: url('../img/official_header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	}
-*/
+
 h1 {
 	font-family: Serif;
 	Font-style: normal;
@@ -99,6 +99,6 @@ footer {
 	padding-bottom: 3px;
 }
 .img.img-circle{
-    width:100px; /* you can use % */
+    width:200px; /* you can use % */
     height: auto;
 }
