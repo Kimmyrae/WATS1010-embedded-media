@@ -9,9 +9,12 @@
 	 padding: 0;
    color: black;
  }
-ul{
-	list-style-type: none;
-}
+ ul li{
+  list-style-type: none;
+  display: inline;
+  margin-left:50px;
+
+  }
 body{
 	background-color: lightblue;
 	margin: 0;
@@ -85,8 +88,7 @@ h3 {
 	text-transform: uppercase;
 	padding-bottom: 3px;
 }
-.weybec-people {
-	display: inline;
-	padding:3px;
-  background-position: center 30px;
+.img.img-circle{
+    width:200px; /* you can use % */
+    height: auto;
 }
