@@ -42,7 +42,9 @@ hr {
     max-width: 400px;
     border-color: #999999;
 }
-
+.intro-text text-center {
+  margin: auto;
+}
 .subtitle {
 	font-style: inherit;
 }
