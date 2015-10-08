@@ -13,8 +13,7 @@
   list-style-type: none;
   display: inline;
   margin-left:50px;
-
-  }
+}
 body{
 	background-color: lightblue;
 	margin: 0;
@@ -39,7 +38,10 @@ h3 {
   margin: auto;
   color: black;
 }
-
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
 
 .subtitle {
 	font-style: inherit;
