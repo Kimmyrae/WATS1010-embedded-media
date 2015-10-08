@@ -8,3 +8,14 @@
  html {
      color: green;
  }
+ body {
+ 	margin: 0;
+ }
+ header {
+      min-height: 400px;
+ 	 background-image: url('../img/monkaa_title.jpg');
+ 	 background-repeat: no-repeat;
+ 	 background-position: center center;
+ 	 background-size: cover;
+ 	font-family: Rockwell;
+  }
