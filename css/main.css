@@ -113,14 +113,15 @@ img.img-circle{
     width:200px; /* you can use % */
     height: auto;
 }
- ul li{
+/* ul li{
   list-style-type: none;
   display: inline;
   margin-left:50px;
 
-  }
+  }*/
 .nav navbar-nav {
   display: inline;
+    list-style-type: none;
 }
 .info{
   text-align: center;
