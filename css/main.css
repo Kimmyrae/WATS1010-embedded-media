@@ -121,7 +121,7 @@ img.img-circle{
   }*/
 .nav navbar-nav {
   display: inline;
-    list-style-type: none;
+  list-style-type: none;
 }
 .info{
   text-align: center;
@@ -215,4 +215,12 @@ footer p {
         display: table;
         clear: both;
     }
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    display:none;
 }
