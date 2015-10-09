@@ -17,7 +17,6 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -27,6 +26,13 @@ h6 {
     letter-spacing: 1px;
 }
 
+h3{
+  text-transform: uppercase;
+  font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+}
 p {
     font-size: 1.25em;
     line-height: 1.6;
@@ -47,12 +53,14 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    position: relative;
 }
 
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+    display: inline;
 }
 
 .img-full {
@@ -96,7 +104,7 @@ hr {
 .img-border {
     float: none;
     margin: 0 auto 0;
-    border: #999999 solid 1px;
+    border: #24A8FF  solid 1px;
 }
 
 .img-left {
@@ -119,10 +127,7 @@ img.img-circle{
   margin-left:50px;
 
   }*/
-.nav navbar-nav {
-  display: inline;
-  list-style-type: none;
-}
+
 .info{
   text-align: center;
 }
